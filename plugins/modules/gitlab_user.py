@@ -28,7 +28,7 @@ author:
   - Stef Graces (@stgrace)
 requirements:
   - python >= 2.7
-  - python-gitlab python module
+  - python-gitlab python module < 4.0.0
   - administrator rights on the GitLab server
 extends_documentation_fragment:
   - community.general.auth_basic
